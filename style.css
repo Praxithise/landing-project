@@ -1,0 +1,163 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+header,
+footer {
+  display: flex;
+  padding: 1rem;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+main > section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 4rem 1rem;
+}
+
+header {
+  justify-content: space-evenly;
+}
+
+header ul {
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+}
+
+header li {
+  list-style: none;
+}
+
+header a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.hero {
+  background-color: #1f2937;
+}
+.hero > div {
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero img {
+  width: 100%;
+  aspect-ratio: 2/1;
+}
+
+.button {
+  background-color: #3882f6;
+  border: none;
+  color: #f9faf8;
+  padding: 0.7rem;
+  border-radius: 15px;
+}
+
+.random-info {
+  flex-direction: column;
+  align-items: center;
+}
+.random-info h2 {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
+}
+.random-info-cards {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  max-width: 80%;
+}
+.info {
+  width: 200px;
+  text-align: center;
+}
+.square {
+  border: 1px solid #3882f6;
+  height: 200px;
+  width: 200px;
+  border-radius: 15%;
+}
+.quote {
+  flex-direction: column;
+  align-items: center;
+  background-color: #e5e7eb;
+}
+
+.container {
+  max-width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+blockquote {
+  font-style: italic;
+  font-weight: light;
+  font-size: 36px;
+  color: #1f2937;
+}
+figcaption {
+  font-weight: bold;
+  text-align: end;
+}
+
+.cta {
+  display: flex;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 12px;
+  padding: 3rem;
+  gap: 2rem;
+  align-items: center;
+}
+
+.cta .button {
+  border: 1px solid #f9faf8;
+}
+.cta h2,
+.cta p {
+  margin: 0;
+}
